@@ -1,0 +1,1 @@
+#ifndef __U_LIBC_H__#define __U_LIBC_H__extern UInt32 strlen(char * s);extern void memset(void *p, int c, UInt32 s);extern void memcpy(void* d, void* s, UInt32 z);extern void memmove(void* d, void* s, UInt32 z);extern int strcmp( char * cs, char * ct);extern char * strcat(char * dest,  char * src);extern void strcpy(char * dest,  char * src);#endif
